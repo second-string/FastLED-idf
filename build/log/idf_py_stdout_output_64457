@@ -1,0 +1,423 @@
+[1/22] Performing build step for 'bootloader'
+[1/1] cd /Users/brianteam/Developer/FastLED-idf-FORK/build/bootloader/esp-idf/esptool_py && /Users/brianteam/.espressif/python_env/idf5.0_py3.11_env/bin/python /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /Users/brianteam/Developer/FastLED-idf-FORK/build/bootloader/bootloader.bin
+Bootloader binary size 0x6fd0 bytes. 0x30 bytes (0%) free.
+[2/20] Building CXX object esp-idf/FastLED-idf/CMakeFiles/__idf_FastLED-idf.dir/lib8tion.cpp.obj
+In file included from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:109,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/fastled_esp32.h:10,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms.h:36,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/FastLED.h:64,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/lib8tion.cpp:3:
+/Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/driver/deprecated/driver/periph_ctrl.h:7:2: warning: #warning driver/periph_ctrl.h header is no longer used, and will be removed in future versions. [-Wcpp]
+    7 | #warning driver/periph_ctrl.h header is no longer used, and will be removed in future versions.
+      |  ^~~~~~~
+[3/20] Building CXX object esp-idf/FastLED-idf/CMakeFiles/__idf_FastLED-idf.dir/power_mgt.cpp.obj
+In file included from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:109,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/fastled_esp32.h:10,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms.h:36,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/FastLED.h:64,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/power_mgt.cpp:2:
+/Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/driver/deprecated/driver/periph_ctrl.h:7:2: warning: #warning driver/periph_ctrl.h header is no longer used, and will be removed in future versions. [-Wcpp]
+    7 | #warning driver/periph_ctrl.h header is no longer used, and will be removed in future versions.
+      |  ^~~~~~~
+[4/20] Building CXX object esp-idf/FastLED-idf/CMakeFiles/__idf_FastLED-idf.dir/wiring.cpp.obj
+In file included from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:109,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/fastled_esp32.h:10,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms.h:36,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/FastLED.h:64,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/wiring.cpp:2:
+/Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/driver/deprecated/driver/periph_ctrl.h:7:2: warning: #warning driver/periph_ctrl.h header is no longer used, and will be removed in future versions. [-Wcpp]
+    7 | #warning driver/periph_ctrl.h header is no longer used, and will be removed in future versions.
+      |  ^~~~~~~
+[5/20] Building CXX object esp-idf/FastLED-idf/CMakeFiles/__idf_FastLED-idf.dir/colorpalettes.cpp.obj
+In file included from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:109,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/fastled_esp32.h:10,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms.h:36,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/FastLED.h:64,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/colorpalettes.cpp:4:
+/Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/driver/deprecated/driver/periph_ctrl.h:7:2: warning: #warning driver/periph_ctrl.h header is no longer used, and will be removed in future versions. [-Wcpp]
+    7 | #warning driver/periph_ctrl.h header is no longer used, and will be removed in future versions.
+      |  ^~~~~~~
+[6/20] Building CXX object esp-idf/FastLED-idf/CMakeFiles/__idf_FastLED-idf.dir/bitswap.cpp.obj
+In file included from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:109,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/fastled_esp32.h:10,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms.h:36,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/FastLED.h:64,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/bitswap.cpp:2:
+/Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/driver/deprecated/driver/periph_ctrl.h:7:2: warning: #warning driver/periph_ctrl.h header is no longer used, and will be removed in future versions. [-Wcpp]
+    7 | #warning driver/periph_ctrl.h header is no longer used, and will be removed in future versions.
+      |  ^~~~~~~
+[7/20] Building CXX object esp-idf/FastLED-idf/CMakeFiles/__idf_FastLED-idf.dir/FastLED.cpp.obj
+In file included from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:109,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/fastled_esp32.h:10,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms.h:36,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/FastLED.h:64,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/FastLED.cpp:2:
+/Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/driver/deprecated/driver/periph_ctrl.h:7:2: warning: #warning driver/periph_ctrl.h header is no longer used, and will be removed in future versions. [-Wcpp]
+    7 | #warning driver/periph_ctrl.h header is no longer used, and will be removed in future versions.
+      |  ^~~~~~~
+[8/20] Building CXX object esp-idf/FastLED-idf/CMakeFiles/__idf_FastLED-idf.dir/hsv2rgb.cpp.obj
+In file included from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:109,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/fastled_esp32.h:10,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms.h:36,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/FastLED.h:64,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/hsv2rgb.cpp:4:
+/Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/driver/deprecated/driver/periph_ctrl.h:7:2: warning: #warning driver/periph_ctrl.h header is no longer used, and will be removed in future versions. [-Wcpp]
+    7 | #warning driver/periph_ctrl.h header is no longer used, and will be removed in future versions.
+      |  ^~~~~~~
+[9/20] Building CXX object esp-idf/FastLED-idf/CMakeFiles/__idf_FastLED-idf.dir/colorutils.cpp.obj
+In file included from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:109,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/fastled_esp32.h:10,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms.h:36,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/FastLED.h:64,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/colorutils.cpp:7:
+/Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/driver/deprecated/driver/periph_ctrl.h:7:2: warning: #warning driver/periph_ctrl.h header is no longer used, and will be removed in future versions. [-Wcpp]
+    7 | #warning driver/periph_ctrl.h header is no longer used, and will be removed in future versions.
+      |  ^~~~~~~
+[10/20] Building CXX object esp-idf/FastLED-idf/CMakeFiles/__idf_FastLED-idf.dir/noise.cpp.obj
+In file included from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:109,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/fastled_esp32.h:10,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms.h:36,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/FastLED.h:64,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/noise.cpp:2:
+/Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/driver/deprecated/driver/periph_ctrl.h:7:2: warning: #warning driver/periph_ctrl.h header is no longer used, and will be removed in future versions. [-Wcpp]
+    7 | #warning driver/periph_ctrl.h header is no longer used, and will be removed in future versions.
+      |  ^~~~~~~
+[11/20] Linking C static library esp-idf/FastLED-idf/libFastLED-idf.a
+[12/20] Building CXX object esp-idf/WS2812FX-idf/CMakeFiles/__idf_WS2812FX-idf.dir/FX_fcn.cpp.obj
+In file included from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:109,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/fastled_esp32.h:10,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms.h:36,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/FastLED.h:64,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/WS2812FX-idf/FX.h:33,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/WS2812FX-idf/FX_fcn.cpp:27:
+/Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/driver/deprecated/driver/periph_ctrl.h:7:2: warning: #warning driver/periph_ctrl.h header is no longer used, and will be removed in future versions. [-Wcpp]
+    7 | #warning driver/periph_ctrl.h header is no longer used, and will be removed in future versions.
+      |  ^~~~~~~
+In file included from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/FastLED.h:60,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/WS2812FX-idf/FX.h:33,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/WS2812FX-idf/FX_fcn.cpp:27:
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:120:49: warning: 'volatile'-qualified parameter is deprecated [-Wvolatile]
+  120 |         inline void set(FASTLED_REGISTER port_t val) __attribute__ ((always_inline)) { *mPort = val; }
+      |                                          ~~~~~~~^~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:122:87: warning: 'volatile'-qualified parameter is deprecated [-Wvolatile]
+  122 |         inline void fastset(FASTLED_REGISTER port_ptr_t port, FASTLED_REGISTER port_t val) __attribute__ ((always_inline)) { *port  = val; }
+      |                                                                                ~~~~~~~^~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:124:9: warning: 'volatile'-qualified return type is deprecated [-Wvolatile]
+  124 |         port_t hival() __attribute__ ((always_inline)) { return *mPort | mPinMask;  }
+      |         ^~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:125:9: warning: 'volatile'-qualified return type is deprecated [-Wvolatile]
+  125 |         port_t loval() __attribute__ ((always_inline)) { return *mPort & ~mPinMask; }
+      |         ^~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:127:9: warning: 'volatile'-qualified return type is deprecated [-Wvolatile]
+  127 |         port_t mask() __attribute__ ((always_inline)) { return mPinMask; }
+      |         ^~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h: In member function 'void Pin::hi()':
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:112:67: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+  112 |         inline void hi() __attribute__ ((always_inline)) { *mPort |= mPinMask; }
+      |                                                            ~~~~~~~^~~~~~~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h: In member function 'void Pin::lo()':
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:113:67: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+  113 |         inline void lo() __attribute__ ((always_inline)) { *mPort &= ~mPinMask; }
+      |                                                            ~~~~~~~^~~~~~~~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h: In member function 'void Pin::hi(Pin::port_ptr_t)':
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:118:98: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+  118 |         inline void hi(FASTLED_REGISTER port_ptr_t port) __attribute__ ((always_inline)) { *port |= mPinMask; }
+      |                                                                                            ~~~~~~^~~~~~~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h: In member function 'void Pin::lo(Pin::port_ptr_t)':
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:119:98: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+  119 |         inline void lo(FASTLED_REGISTER port_ptr_t port) __attribute__ ((always_inline)) { *port &= ~mPinMask; }
+      |                                                                                            ~~~~~~^~~~~~~~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h: At global scope:
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:227:56: warning: 'volatile'-qualified parameter is deprecated [-Wvolatile]
+  227 |         inline static void set(FASTLED_REGISTER port_t val) __attribute__ ((always_inline)) { }
+      |                                                 ~~~~~~~^~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:229:94: warning: 'volatile'-qualified parameter is deprecated [-Wvolatile]
+  229 |         inline static void fastset(FASTLED_REGISTER port_ptr_t port, FASTLED_REGISTER port_t val) __attribute__ ((always_inline)) { }
+      |                                                                                       ~~~~~~~^~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:231:16: warning: 'volatile'-qualified return type is deprecated [-Wvolatile]
+  231 |         static port_t hival() __attribute__ ((always_inline)) { return 0; }
+      |                ^~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:232:16: warning: 'volatile'-qualified return type is deprecated [-Wvolatile]
+  232 |         static port_t loval() __attribute__ ((always_inline)) { return 0;}
+      |                ^~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:234:16: warning: 'volatile'-qualified return type is deprecated [-Wvolatile]
+  234 |         static port_t mask() __attribute__ ((always_inline)) { return 0; }
+      |                ^~~~~~
+In file included from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/fastled_esp32.h:3,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms.h:36,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/FastLED.h:64,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/WS2812FX-idf/FX.h:33,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/WS2812FX-idf/FX_fcn.cpp:27:
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/fastpin_esp32.h: In static member function 'static void _ESPPIN<PIN, MASK>::toggle()':
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/fastpin_esp32.h:48:31: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+   48 |       if(PIN < 32) { GPIO.out ^= MASK; }
+      |                      ~~~~~~~~~^~~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/fastpin_esp32.h:49:28: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+   49 |       else { GPIO.out1.val ^=MASK; }
+      |              ~~~~~~~~~~~~~~^~~~~~
+In file included from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/fastled_esp32.h:10,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms.h:36,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/FastLED.h:64,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/WS2812FX-idf/FX.h:33,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/WS2812FX-idf/FX_fcn.cpp:27:
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h: In static member function 'static void ClocklessController<DATA_PIN, T1, T2, T3, RGB_ORDER, XTRA0, FLIP, WAIT_TIME>::i2sReset()':
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:755:26: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+  755 |         i2s->lc_conf.val |= lc_conf_reset_flags;
+      |         ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:756:26: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+  756 |         i2s->lc_conf.val &= ~lc_conf_reset_flags;
+      |         ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:759:23: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+  759 |         i2s->conf.val |= conf_reset_flags;
+      |         ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:760:23: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+  760 |         i2s->conf.val &= ~conf_reset_flags;
+      |         ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+In file included from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/FastLED.h:77,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/WS2812FX-idf/FX.h:33,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/WS2812FX-idf/FX_fcn.cpp:27:
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastspi.h: At global scope:
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastspi.h:135:23: note: '#pragma message: No hardware SPI pins defined.  All SPI access will default to bitbanged output'
+  135 | #      pragma message "No hardware SPI pins defined.  All SPI access will default to bitbanged output"
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[13/20] Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj
+In file included from /Users/brianteam/Developer/FastLED-idf-FORK/main/main.cpp:14:
+/Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/spi_flash/include/esp_spi_flash.h:6:2: warning: #warning esp_spi_flash.h is deprecated, please use spi_flash_mmap.h instead [-Wcpp]
+    6 | #warning esp_spi_flash.h is deprecated, please use spi_flash_mmap.h instead
+      |  ^~~~~~~
+In file included from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:109,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/fastled_esp32.h:10,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms.h:36,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/FastLED.h:64,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/main/main.cpp:16:
+/Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/driver/deprecated/driver/periph_ctrl.h:7:2: warning: #warning driver/periph_ctrl.h header is no longer used, and will be removed in future versions. [-Wcpp]
+    7 | #warning driver/periph_ctrl.h header is no longer used, and will be removed in future versions.
+      |  ^~~~~~~
+In file included from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/FastLED.h:60,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/main/main.cpp:16:
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:120:49: warning: 'volatile'-qualified parameter is deprecated [-Wvolatile]
+  120 |         inline void set(FASTLED_REGISTER port_t val) __attribute__ ((always_inline)) { *mPort = val; }
+      |                                          ~~~~~~~^~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:122:87: warning: 'volatile'-qualified parameter is deprecated [-Wvolatile]
+  122 |         inline void fastset(FASTLED_REGISTER port_ptr_t port, FASTLED_REGISTER port_t val) __attribute__ ((always_inline)) { *port  = val; }
+      |                                                                                ~~~~~~~^~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:124:9: warning: 'volatile'-qualified return type is deprecated [-Wvolatile]
+  124 |         port_t hival() __attribute__ ((always_inline)) { return *mPort | mPinMask;  }
+      |         ^~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:125:9: warning: 'volatile'-qualified return type is deprecated [-Wvolatile]
+  125 |         port_t loval() __attribute__ ((always_inline)) { return *mPort & ~mPinMask; }
+      |         ^~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:127:9: warning: 'volatile'-qualified return type is deprecated [-Wvolatile]
+  127 |         port_t mask() __attribute__ ((always_inline)) { return mPinMask; }
+      |         ^~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h: In member function 'void Pin::hi()':
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:112:67: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+  112 |         inline void hi() __attribute__ ((always_inline)) { *mPort |= mPinMask; }
+      |                                                            ~~~~~~~^~~~~~~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h: In member function 'void Pin::lo()':
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:113:67: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+  113 |         inline void lo() __attribute__ ((always_inline)) { *mPort &= ~mPinMask; }
+      |                                                            ~~~~~~~^~~~~~~~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h: In member function 'void Pin::hi(Pin::port_ptr_t)':
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:118:98: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+  118 |         inline void hi(FASTLED_REGISTER port_ptr_t port) __attribute__ ((always_inline)) { *port |= mPinMask; }
+      |                                                                                            ~~~~~~^~~~~~~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h: In member function 'void Pin::lo(Pin::port_ptr_t)':
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:119:98: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+  119 |         inline void lo(FASTLED_REGISTER port_ptr_t port) __attribute__ ((always_inline)) { *port &= ~mPinMask; }
+      |                                                                                            ~~~~~~^~~~~~~~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h: At global scope:
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:227:56: warning: 'volatile'-qualified parameter is deprecated [-Wvolatile]
+  227 |         inline static void set(FASTLED_REGISTER port_t val) __attribute__ ((always_inline)) { }
+      |                                                 ~~~~~~~^~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:229:94: warning: 'volatile'-qualified parameter is deprecated [-Wvolatile]
+  229 |         inline static void fastset(FASTLED_REGISTER port_ptr_t port, FASTLED_REGISTER port_t val) __attribute__ ((always_inline)) { }
+      |                                                                                       ~~~~~~~^~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:231:16: warning: 'volatile'-qualified return type is deprecated [-Wvolatile]
+  231 |         static port_t hival() __attribute__ ((always_inline)) { return 0; }
+      |                ^~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:232:16: warning: 'volatile'-qualified return type is deprecated [-Wvolatile]
+  232 |         static port_t loval() __attribute__ ((always_inline)) { return 0;}
+      |                ^~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:234:16: warning: 'volatile'-qualified return type is deprecated [-Wvolatile]
+  234 |         static port_t mask() __attribute__ ((always_inline)) { return 0; }
+      |                ^~~~~~
+In file included from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/fastled_esp32.h:3,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms.h:36,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/FastLED.h:64,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/main/main.cpp:16:
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/fastpin_esp32.h: In static member function 'static void _ESPPIN<PIN, MASK>::toggle()':
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/fastpin_esp32.h:48:31: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+   48 |       if(PIN < 32) { GPIO.out ^= MASK; }
+      |                      ~~~~~~~~~^~~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/fastpin_esp32.h:49:28: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+   49 |       else { GPIO.out1.val ^=MASK; }
+      |              ~~~~~~~~~~~~~~^~~~~~
+In file included from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/fastled_esp32.h:10,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms.h:36,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/FastLED.h:64,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/main/main.cpp:16:
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h: In static member function 'static void ClocklessController<DATA_PIN, T1, T2, T3, RGB_ORDER, XTRA0, FLIP, WAIT_TIME>::i2sReset()':
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:755:26: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+  755 |         i2s->lc_conf.val |= lc_conf_reset_flags;
+      |         ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:756:26: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+  756 |         i2s->lc_conf.val &= ~lc_conf_reset_flags;
+      |         ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:759:23: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+  759 |         i2s->conf.val |= conf_reset_flags;
+      |         ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:760:23: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+  760 |         i2s->conf.val &= ~conf_reset_flags;
+      |         ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+In file included from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/FastLED.h:77,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/main/main.cpp:16:
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastspi.h: At global scope:
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastspi.h:135:23: note: '#pragma message: No hardware SPI pins defined.  All SPI access will default to bitbanged output'
+  135 | #      pragma message "No hardware SPI pins defined.  All SPI access will default to bitbanged output"
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/fastled_esp32.h:10,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms.h:36,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/FastLED.h:64,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/main/main.cpp:16:
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h: In instantiation of 'static void ClocklessController<DATA_PIN, T1, T2, T3, RGB_ORDER, XTRA0, FLIP, WAIT_TIME>::i2sReset() [with int DATA_PIN = 18; int T1 = 77; int T2 = 77; int T3 = 154; EOrder RGB_ORDER = RGB; int XTRA0 = 0; bool FLIP = false; int WAIT_TIME = 5]':
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:465:17:   required from 'static void ClocklessController<DATA_PIN, T1, T2, T3, RGB_ORDER, XTRA0, FLIP, WAIT_TIME>::i2sInit() [with int DATA_PIN = 18; int T1 = 77; int T2 = 77; int T3 = 154; EOrder RGB_ORDER = RGB; int XTRA0 = 0; bool FLIP = false; int WAIT_TIME = 5]'
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:215:16:   required from 'void ClocklessController<DATA_PIN, T1, T2, T3, RGB_ORDER, XTRA0, FLIP, WAIT_TIME>::init() [with int DATA_PIN = 18; int T1 = 77; int T2 = 77; int T3 = 154; EOrder RGB_ORDER = RGB; int XTRA0 = 0; bool FLIP = false; int WAIT_TIME = 5]'
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:213:10:   required from here
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:755:26: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+  755 |         i2s->lc_conf.val |= lc_conf_reset_flags;
+      |         ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:756:26: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+  756 |         i2s->lc_conf.val &= ~lc_conf_reset_flags;
+      |         ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:759:23: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+  759 |         i2s->conf.val |= conf_reset_flags;
+      |         ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:760:23: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+  760 |         i2s->conf.val &= ~conf_reset_flags;
+      |         ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h: In instantiation of 'static void ClocklessController<DATA_PIN, T1, T2, T3, RGB_ORDER, XTRA0, FLIP, WAIT_TIME>::i2sReset() [with int DATA_PIN = 13; int T1 = 77; int T2 = 77; int T3 = 154; EOrder RGB_ORDER = RGB; int XTRA0 = 0; bool FLIP = false; int WAIT_TIME = 5]':
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:465:17:   required from 'static void ClocklessController<DATA_PIN, T1, T2, T3, RGB_ORDER, XTRA0, FLIP, WAIT_TIME>::i2sInit() [with int DATA_PIN = 13; int T1 = 77; int T2 = 77; int T3 = 154; EOrder RGB_ORDER = RGB; int XTRA0 = 0; bool FLIP = false; int WAIT_TIME = 5]'
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:215:16:   required from 'void ClocklessController<DATA_PIN, T1, T2, T3, RGB_ORDER, XTRA0, FLIP, WAIT_TIME>::init() [with int DATA_PIN = 13; int T1 = 77; int T2 = 77; int T3 = 154; EOrder RGB_ORDER = RGB; int XTRA0 = 0; bool FLIP = false; int WAIT_TIME = 5]'
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:213:10:   required from here
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:755:26: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+  755 |         i2s->lc_conf.val |= lc_conf_reset_flags;
+      |         ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:756:26: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+  756 |         i2s->lc_conf.val &= ~lc_conf_reset_flags;
+      |         ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:759:23: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+  759 |         i2s->conf.val |= conf_reset_flags;
+      |         ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:760:23: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+  760 |         i2s->conf.val &= ~conf_reset_flags;
+      |         ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+[14/20] Building CXX object esp-idf/WS2812FX-idf/CMakeFiles/__idf_WS2812FX-idf.dir/FX.cpp.obj
+In file included from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:109,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/fastled_esp32.h:10,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms.h:36,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/FastLED.h:64,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/WS2812FX-idf/FX.h:33,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/WS2812FX-idf/FX.cpp:28:
+/Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/driver/deprecated/driver/periph_ctrl.h:7:2: warning: #warning driver/periph_ctrl.h header is no longer used, and will be removed in future versions. [-Wcpp]
+    7 | #warning driver/periph_ctrl.h header is no longer used, and will be removed in future versions.
+      |  ^~~~~~~
+In file included from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/FastLED.h:60,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/WS2812FX-idf/FX.h:33,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/WS2812FX-idf/FX.cpp:28:
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:120:49: warning: 'volatile'-qualified parameter is deprecated [-Wvolatile]
+  120 |         inline void set(FASTLED_REGISTER port_t val) __attribute__ ((always_inline)) { *mPort = val; }
+      |                                          ~~~~~~~^~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:122:87: warning: 'volatile'-qualified parameter is deprecated [-Wvolatile]
+  122 |         inline void fastset(FASTLED_REGISTER port_ptr_t port, FASTLED_REGISTER port_t val) __attribute__ ((always_inline)) { *port  = val; }
+      |                                                                                ~~~~~~~^~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:124:9: warning: 'volatile'-qualified return type is deprecated [-Wvolatile]
+  124 |         port_t hival() __attribute__ ((always_inline)) { return *mPort | mPinMask;  }
+      |         ^~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:125:9: warning: 'volatile'-qualified return type is deprecated [-Wvolatile]
+  125 |         port_t loval() __attribute__ ((always_inline)) { return *mPort & ~mPinMask; }
+      |         ^~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:127:9: warning: 'volatile'-qualified return type is deprecated [-Wvolatile]
+  127 |         port_t mask() __attribute__ ((always_inline)) { return mPinMask; }
+      |         ^~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h: In member function 'void Pin::hi()':
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:112:67: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+  112 |         inline void hi() __attribute__ ((always_inline)) { *mPort |= mPinMask; }
+      |                                                            ~~~~~~~^~~~~~~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h: In member function 'void Pin::lo()':
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:113:67: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+  113 |         inline void lo() __attribute__ ((always_inline)) { *mPort &= ~mPinMask; }
+      |                                                            ~~~~~~~^~~~~~~~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h: In member function 'void Pin::hi(Pin::port_ptr_t)':
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:118:98: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+  118 |         inline void hi(FASTLED_REGISTER port_ptr_t port) __attribute__ ((always_inline)) { *port |= mPinMask; }
+      |                                                                                            ~~~~~~^~~~~~~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h: In member function 'void Pin::lo(Pin::port_ptr_t)':
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:119:98: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+  119 |         inline void lo(FASTLED_REGISTER port_ptr_t port) __attribute__ ((always_inline)) { *port &= ~mPinMask; }
+      |                                                                                            ~~~~~~^~~~~~~~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h: At global scope:
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:227:56: warning: 'volatile'-qualified parameter is deprecated [-Wvolatile]
+  227 |         inline static void set(FASTLED_REGISTER port_t val) __attribute__ ((always_inline)) { }
+      |                                                 ~~~~~~~^~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:229:94: warning: 'volatile'-qualified parameter is deprecated [-Wvolatile]
+  229 |         inline static void fastset(FASTLED_REGISTER port_ptr_t port, FASTLED_REGISTER port_t val) __attribute__ ((always_inline)) { }
+      |                                                                                       ~~~~~~~^~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:231:16: warning: 'volatile'-qualified return type is deprecated [-Wvolatile]
+  231 |         static port_t hival() __attribute__ ((always_inline)) { return 0; }
+      |                ^~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:232:16: warning: 'volatile'-qualified return type is deprecated [-Wvolatile]
+  232 |         static port_t loval() __attribute__ ((always_inline)) { return 0;}
+      |                ^~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastpin.h:234:16: warning: 'volatile'-qualified return type is deprecated [-Wvolatile]
+  234 |         static port_t mask() __attribute__ ((always_inline)) { return 0; }
+      |                ^~~~~~
+In file included from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/fastled_esp32.h:3,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms.h:36,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/FastLED.h:64,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/WS2812FX-idf/FX.h:33,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/WS2812FX-idf/FX.cpp:28:
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/fastpin_esp32.h: In static member function 'static void _ESPPIN<PIN, MASK>::toggle()':
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/fastpin_esp32.h:48:31: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+   48 |       if(PIN < 32) { GPIO.out ^= MASK; }
+      |                      ~~~~~~~~~^~~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/fastpin_esp32.h:49:28: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+   49 |       else { GPIO.out1.val ^=MASK; }
+      |              ~~~~~~~~~~~~~~^~~~~~
+In file included from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/fastled_esp32.h:10,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms.h:36,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/FastLED.h:64,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/WS2812FX-idf/FX.h:33,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/WS2812FX-idf/FX.cpp:28:
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h: In static member function 'static void ClocklessController<DATA_PIN, T1, T2, T3, RGB_ORDER, XTRA0, FLIP, WAIT_TIME>::i2sReset()':
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:755:26: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+  755 |         i2s->lc_conf.val |= lc_conf_reset_flags;
+      |         ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:756:26: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+  756 |         i2s->lc_conf.val &= ~lc_conf_reset_flags;
+      |         ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:759:23: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+  759 |         i2s->conf.val |= conf_reset_flags;
+      |         ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/platforms/esp/32/clockless_i2s_esp32.h:760:23: warning: compound assignment with 'volatile'-qualified left operand is deprecated [-Wvolatile]
+  760 |         i2s->conf.val &= ~conf_reset_flags;
+      |         ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+In file included from /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/FastLED.h:77,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/WS2812FX-idf/FX.h:33,
+                 from /Users/brianteam/Developer/FastLED-idf-FORK/components/WS2812FX-idf/FX.cpp:28:
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastspi.h: At global scope:
+/Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf/fastspi.h:135:23: note: '#pragma message: No hardware SPI pins defined.  All SPI access will default to bitbanged output'
+  135 | #      pragma message "No hardware SPI pins defined.  All SPI access will default to bitbanged output"
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[15/20] Linking C static library esp-idf/WS2812FX-idf/libWS2812FX-idf.a
+[16/20] Linking C static library esp-idf/main/libmain.a
+[17/20] Generating ld/sections.ld
+[18/20] Linking CXX executable FastLED-idf.elf
+[19/20] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /Users/brianteam/Developer/FastLED-idf-FORK/build/FastLED-idf.bin
+[20/20] cd /Users/brianteam/Developer/FastLED-idf-FORK/build/esp-idf/esptool_py && /Users/brianteam/.espressif/python_env/idf5.0_py3.11_env/bin/python /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/brianteam/Developer/FastLED-idf-FORK/build/partition_table/partition-table.bin /Users/brianteam/Developer/FastLED-idf-FORK/build/FastLED-idf.bin
+FastLED-idf.bin binary size 0x3ce70 bytes. Smallest app partition is 0x100000 bytes. 0xc3190 bytes (76%) free.

@@ -325,7 +325,8 @@ static void fastfade(void *pvParameters){
         .callback = _fastfade_cb,
         .arg = (void *) &ff_t,
         .dispatch_method = ESP_TIMER_TASK,
-        .name = "fastfade_timer"
+        .name = "fastfade_timer",
+        .skip_unhandled_events = false,
     };
 
   esp_timer_handle_t timer_h;
@@ -403,6 +404,9 @@ void blinkLeds_chase(void *pvParameters) {
 }
 
 void app_main() {
+    (void)fastfade;
+    (void)blinkWithFx_allpatterns;
+
   printf(" entering app main, call add leds\n");
   // the WS2811 family uses the RMT driver
   FastLED.addLeds<LED_TYPE, DATA_PIN_1>(leds1, NUM_LEDS);

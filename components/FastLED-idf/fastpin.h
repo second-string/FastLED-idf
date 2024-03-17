@@ -57,11 +57,11 @@ public:
 	inline void strobe() __attribute__ ((always_inline)) { toggle(); toggle(); }
 	inline void toggle() __attribute__ ((always_inline)) { *mInPort = mPinMask; }
 
-	inline void hi(register port_ptr_t port) __attribute__ ((always_inline)) { *port |= mPinMask; }
-	inline void lo(register port_ptr_t port) __attribute__ ((always_inline)) { *port &= ~mPinMask; }
-	inline void set(register port_t val) __attribute__ ((always_inline)) { *mPort = val; }
+	inline void hi(FASTLED_REGISTER port_ptr_t port) __attribute__ ((always_inline)) { *port |= mPinMask; }
+	inline void lo(FASTLED_REGISTER port_ptr_t port) __attribute__ ((always_inline)) { *port &= ~mPinMask; }
+	inline void set(FASTLED_REGISTER port_t val) __attribute__ ((always_inline)) { *mPort = val; }
 
-	inline void fastset(register port_ptr_t port, register port_t val) __attribute__ ((always_inline)) { *port  = val; }
+	inline void fastset(FASTLED_REGISTER port_ptr_t port, FASTLED_REGISTER port_t val) __attribute__ ((always_inline)) { *port  = val; }
 
 	port_t hival() __attribute__ ((always_inline)) { return *mPort | mPinMask;  }
 	port_t loval() __attribute__ ((always_inline)) { return *mPort & ~mPinMask; }
@@ -115,11 +115,11 @@ public:
 	inline void strobe() __attribute__ ((always_inline)) { toggle(); toggle(); }
 	inline void toggle() __attribute__ ((always_inline)) { *mInPort = mPinMask; }
 
-	inline void hi(register port_ptr_t port) __attribute__ ((always_inline)) { *port |= mPinMask; }
-	inline void lo(register port_ptr_t port) __attribute__ ((always_inline)) { *port &= ~mPinMask; }
-	inline void set(register port_t val) __attribute__ ((always_inline)) { *mPort = val; }
+	inline void hi(FASTLED_REGISTER port_ptr_t port) __attribute__ ((always_inline)) { *port |= mPinMask; }
+	inline void lo(FASTLED_REGISTER port_ptr_t port) __attribute__ ((always_inline)) { *port &= ~mPinMask; }
+	inline void set(FASTLED_REGISTER port_t val) __attribute__ ((always_inline)) { *mPort = val; }
 
-	inline void fastset(register port_ptr_t port, register port_t val) __attribute__ ((always_inline)) { *port  = val; }
+	inline void fastset(FASTLED_REGISTER port_ptr_t port, FASTLED_REGISTER port_t val) __attribute__ ((always_inline)) { *port  = val; }
 
 	port_t hival() __attribute__ ((always_inline)) { return *mPort | mPinMask;  }
 	port_t loval() __attribute__ ((always_inline)) { return *mPort & ~mPinMask; }
@@ -183,11 +183,11 @@ public:
 
 	inline static void toggle() __attribute__ ((always_inline)) { *sInPort = sPinMask; }
 
-	inline static void hi(register port_ptr_t port) __attribute__ ((always_inline)) { *port |= sPinMask; }
-	inline static void lo(register port_ptr_t port) __attribute__ ((always_inline)) { *port &= ~sPinMask; }
-	inline static void set(register port_t val) __attribute__ ((always_inline)) { *sPort = val; }
+	inline static void hi(FASTLED_REGISTER port_ptr_t port) __attribute__ ((always_inline)) { *port |= sPinMask; }
+	inline static void lo(FASTLED_REGISTER port_ptr_t port) __attribute__ ((always_inline)) { *port &= ~sPinMask; }
+	inline static void set(FASTLED_REGISTER port_t val) __attribute__ ((always_inline)) { *sPort = val; }
 
-	inline static void fastset(register port_ptr_t port, register port_t val) __attribute__ ((always_inline)) { *port  = val; }
+	inline static void fastset(FASTLED_REGISTER port_ptr_t port, FASTLED_REGISTER port_t val) __attribute__ ((always_inline)) { *port  = val; }
 
 	static port_t hival() __attribute__ ((always_inline)) { return *sPort | sPinMask;  }
 	static port_t loval() __attribute__ ((always_inline)) { return *sPort & ~sPinMask; }
@@ -222,11 +222,11 @@ public:
 
 	inline static void toggle() __attribute__ ((always_inline)) { }
 
-	inline static void hi(register port_ptr_t port) __attribute__ ((always_inline)) { }
-	inline static void lo(register port_ptr_t port) __attribute__ ((always_inline)) { }
-	inline static void set(register port_t val) __attribute__ ((always_inline)) { }
+	inline static void hi(FASTLED_REGISTER port_ptr_t port) __attribute__ ((always_inline)) { }
+	inline static void lo(FASTLED_REGISTER port_ptr_t port) __attribute__ ((always_inline)) { }
+	inline static void set(FASTLED_REGISTER port_t val) __attribute__ ((always_inline)) { }
 
-	inline static void fastset(register port_ptr_t port, register port_t val) __attribute__ ((always_inline)) { }
+	inline static void fastset(FASTLED_REGISTER port_ptr_t port, FASTLED_REGISTER port_t val) __attribute__ ((always_inline)) { }
 
 	static port_t hival() __attribute__ ((always_inline)) { return 0; }
 	static port_t loval() __attribute__ ((always_inline)) { return 0;}
