@@ -1,0 +1,43 @@
+-- Found Git: /opt/homebrew/bin/git (found version "2.37.3") 
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is GNU 11.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /Users/brianteam/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Users/brianteam/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/brianteam/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /Users/brianteam/Developer/FastLED-idf-FORK/sdkconfig
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: /Users/brianteam/.espressif/python_env/idf5.0_py3.11_env/bin/python (found version "3.11.7") found components: Interpreter 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "FastLED-idf" version: 1565347-dirty
+-- Adding linker script /Users/brianteam/Developer/FastLED-idf-FORK/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: FastLED-idf WS2812FX-idf app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_netif esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /Users/brianteam/Developer/FastLED-idf-FORK/components/FastLED-idf /Users/brianteam/Developer/FastLED-idf-FORK/components/WS2812FX-idf /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/app_trace /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/app_update /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/bootloader /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/bootloader_support /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/bt /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/cmock /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/console /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/cxx /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/driver /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/efuse /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/esp-tls /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/esp_adc /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/esp_app_format /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/esp_common /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/esp_eth /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/esp_event /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/esp_gdbstub /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/esp_hid /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/esp_http_client /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/esp_http_server /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/esp_https_ota /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/esp_https_server /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/esp_hw_support /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/esp_lcd /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/esp_local_ctrl /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/esp_netif /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/esp_partition /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/esp_phy /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/esp_pm /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/esp_psram /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/esp_ringbuf /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/esp_rom /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/esp_system /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/esp_timer /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/esp_wifi /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/espcoredump /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/esptool_py /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/fatfs /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/freertos /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/hal /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/heap /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/http_parser /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/idf_test /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/ieee802154 /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/json /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/log /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/lwip /Users/brianteam/Developer/FastLED-idf-FORK/main /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/mbedtls /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/mqtt /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/newlib /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/nvs_flash /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/openthread /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/partition_table /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/perfmon /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/protobuf-c /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/protocomm /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/pthread /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/sdmmc /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/soc /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/spi_flash /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/spiffs /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/tcp_transport /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/ulp /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/unity /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/usb /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/vfs /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/wear_levelling /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/wifi_provisioning /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/wpa_supplicant /Users/brianteam/Developer/FastLED-idf/esp-idf-4/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/brianteam/Developer/FastLED-idf-FORK/build

@@ -108,6 +108,7 @@ extern "C" {
 #include "driver/gpio.h"
 #include "driver/periph_ctrl.h"
 #include "esp32/rom/lldesc.h"
+#include "esp32/rom/gpio.h"
 
 #include "esp_log.h"
     
@@ -148,7 +149,7 @@ static int gNumStarted = 0;
 
 // -- Global semaphore for the whole show process
 //    Semaphore is not given until all data has been sent
-static xSemaphoreHandle gTX_sem = NULL;
+static SemaphoreHandle_t gTX_sem = NULL;
 
 // -- One-time I2S initialization
 static bool gInitialized = false;

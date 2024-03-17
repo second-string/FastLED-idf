@@ -199,6 +199,21 @@ struct PixelController {
 
         }
 
+        PixelController& operator=(const PixelController & other) {
+            this->d[0] = other.d[0];
+            this->d[1] = other.d[1];
+            this->d[2] = other.d[2];
+            this->e[0] = other.e[0];
+            this->e[1] = other.e[1];
+            this->e[2] = other.e[2];
+            this->mData = other.mData;
+            this->mScale = other.mScale;
+            this->mAdvance = other.mAdvance;
+            this->mLenRemaining = mLen = other.mLen;
+            for(int i = 0; i < LANES; i++) { this->mOffsets[i] = other.mOffsets[i]; }
+            return *this;
+        }
+
         void initOffsets(int len) {
           int nOffset = 0;
           for(int i = 0; i < LANES; i++) {

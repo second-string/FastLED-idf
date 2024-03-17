@@ -23,6 +23,7 @@
 #include "soc/io_mux_reg.h"
 #include "soc/gpio_struct.h"
 #include "soc/rtc_io_reg.h"
+#include "soc/rtc_periph.h"
 
 #include "driver/rtc_io.h"
 
